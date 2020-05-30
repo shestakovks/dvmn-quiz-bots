@@ -67,10 +67,12 @@ Results:
 Telegram bot example conversation:
 
 ![](docs/img/tg_quiz_bot.gif)
+You can try it out by adding @dvmn_nerdy_quiz_bot in Telegram.
 
 VK bot example conversation:
 
 ![](docs/img/vk_quiz_bot.gif)
+You can try it out by messaging [this](https://vk.com/daily_xkcd_dose) VK community.
 
 ## Project Goals
 
