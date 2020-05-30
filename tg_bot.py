@@ -156,7 +156,7 @@ if __name__ == "__main__":
     proxy_url = os.getenv("TELEGRAM_PROXY_URL", None)
     redis_url, redis_port = os.getenv("REDIS_CONN").rsplit(":")
     redis_password = os.getenv("REDIS_PASSWORD")
-    quiz_data_filename = os.getenv("QUIZ_DATA_FILE", 'output.json')
+    quiz_data_filename = os.getenv("QUIZ_DATA_FILE", "output.json")
 
     formatter = logging.Formatter(
         "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
