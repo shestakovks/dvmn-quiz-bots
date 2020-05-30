@@ -41,7 +41,7 @@ def start_bot(token: str, quiz_data: Dict, redis: redis.Redis) -> None:
             new_player = is_new_player(event=event, redis=redis)
             if new_player:
                 handle_start(event=event, vk=vk, redis=redis)
-            if event.text == NEW_QUESTION_TEXT:
+            elif event.text == NEW_QUESTION_TEXT:
                 handle_new_question_request(
                     event=event, vk=vk, quiz_data=quiz_data, redis=redis
                 )
