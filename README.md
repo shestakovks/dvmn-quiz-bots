@@ -64,8 +64,8 @@ $ python get_questions_list.py <path to directory with quiz files> <path to json
     
 Results:
 
-Telegram bot example conversation - [here](https://imgur.com/2FldaX4)
-VK bot example conversation - [here](https://imgur.com/jlVzlaW)
+Telegram bot example conversation - ![](docs/img/tg_quiz_bot.gif)
+VK bot example conversation - ![](docs/img/vk_quiz_bot.gif)
 
 ## Project Goals
 
