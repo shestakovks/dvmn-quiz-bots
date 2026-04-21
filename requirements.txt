@@ -1,4 +1,4 @@
-python-dotenv==0.10.5
+python-dotenv==1.2.2
 python-telegram-bot==11.1.0
 redis==4.4.4
 vk-api==11.7.0
